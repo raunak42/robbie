@@ -45,10 +45,10 @@ export default function Home() {
         setPricingClicked={setPricingClicked}
         setContactClicked={setContactClicked}
       />
-      <div ref={featuresRef} className="h- w-screen bg-black">
+      <div ref={featuresRef} className=" w-screen bg-black">
         <Features setPricingClicked={setPricingClicked} />
       </div>
-      <div ref={pricingRef} className="h-screen w-screen bg-black">
+      <div ref={pricingRef} className=" w-screen bg-black">
         <Pricing />
       </div>
       <div ref={contactRef} className="">

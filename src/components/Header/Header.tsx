@@ -14,9 +14,9 @@ export const Header: React.FC<HeaderProps> = ({
   setPricingClicked,
 }) => {
   return (
-    <div className="w-full h-[80px] py-8 px-10  flex items-center justify-between text-[#E0FF00]">
+    <div className="w-full h-[80px] py-8 md:px-10 px-4  flex items-center justify-between text-[#E0FF00]">
       <h1 className="text-4xl">BB.</h1>
-      <div className="flex items-center justify-center gap-8 text-lg underline">
+      <div className="flex items-center justify-center gap-2 md:gap-8 text-base md:text-lg underline">
         <h1
           onClick={() => {
             setFeaturesCLicked(true);

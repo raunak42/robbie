@@ -28,11 +28,11 @@ export const Hero: React.FC<HeroProps> = ({
             setContactClicked={setContactClicked}
           />
         </div>
-        <div className="pl-20 flex flex-col items-start justify-start pt-[140px] w-[50%]">
-          <h1 className="text-7xl font-bold text-[#E0FF00] uppercase">
+        <div className="text-center md:text-left px-8 md:px-20 flex flex-col items-center  md:items-start justify-start pt-[140px] md:w-[50%] ">
+          <h1 className="text-4xl md:text-7xl font-bold text-[#E0FF00] uppercase">
             Meet Robbie, Your AI Companion
           </h1>
-          <p className="text-white text-2xl mt-4">
+          <p className="text-white text-base md:text-2xl mt-4">
             Experience the future of personal robotics with Robbie, your
             intelligent and versatile AI companion.
           </p>
@@ -43,7 +43,7 @@ export const Hero: React.FC<HeroProps> = ({
           </div>
         </div>
         <div className="w-full flex items-center justify-center">
-          <FaAnglesDown className="size-8 mt-[140px]" color="#ffffff" />
+          <FaAnglesDown className="size-8 mt-[110px]" color="#ffffff" />
         </div>
       </div>
     </div>

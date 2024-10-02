@@ -41,7 +41,7 @@ const Pricing: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-2">Choose Your Robbie Plan</h2>
         <p className="text-center text-gray-400 mb-12">Select the perfect plan to bring Robbie into your life</p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-8 sm:px-24 md:px-4 lg:px-0">
           <PriceCard
             title="Basic"
             price="$29.99"

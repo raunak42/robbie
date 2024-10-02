@@ -1,5 +1,5 @@
 "use client";
-// import Spline from "@splinetool/react-spline/next";
+import Spline from "@splinetool/react-spline/next";
 import { Header } from "../Header/Header";
 import IntroModal from "../Modal/Modal";
 import { Button } from "../Button/Button";
@@ -19,7 +19,7 @@ export const Hero: React.FC<HeroProps> = ({
 }) => {
   return (
     <div className="w-screen h-screen relative z-10 bg-black">
-      {/* <Spline scene="https://prod.spline.design/UbPpaC5c8Ixgkqry/scene.splinecode" /> */}
+      <Spline scene="https://prod.spline.design/UbPpaC5c8Ixgkqry/scene.splinecode" />
       <div className="absolute top-0 h-full w-full bg-black bg-opacity-0 ">
         <IntroModal />
         <Header
@@ -35,7 +35,9 @@ export const Hero: React.FC<HeroProps> = ({
             Experience the future of personal robotics with Robbie, your
             intelligent and versatile AI companion.
           </p>
-          <Button onClick={()=>setPricingClicked(true)} className="mt-8">Pre Order Now</Button>
+          <Button onClick={() => setPricingClicked(true)} className="mt-8">
+            Pre Order Now
+          </Button>
         </div>
         <div className="w-full flex items-center justify-center">
           <FaAnglesDown className=" size-8  mt-[140px]" color="#ffffff" />

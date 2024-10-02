@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="no-text-cursor">
       <body className={nippo.className}>
         <main className="bg-black" >{children}</main>
       </body>

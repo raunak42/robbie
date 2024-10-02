@@ -10,7 +10,7 @@ interface PriceCardProps {
 }
 
 const PriceCard: React.FC<PriceCardProps> = ({ title, price, features, icon, isPopular = false }) => (
-  <div className={`bg-black border-2 ${isPopular ? 'border-[#E0FF00]' : 'border-gray-700'} rounded-xl px-6 py-12 flex flex-col ${isPopular ? 'transform scale-105' : ''}`}>
+  <div className={`bg-black border-2 ${isPopular ? 'border-[#E0FF00]' : 'border-gray-700'} rounded-none px-6 py-12 flex flex-col ${isPopular ? 'transform scale-105' : ''}`}>
     <div className="flex items-center justify-between mb-4">
       <h3 className={`text-xl font-bold ${isPopular ? 'text-[#E0FF00]' : 'text-white'}`}>{title}</h3>
       {icon}
@@ -24,11 +24,11 @@ const PriceCard: React.FC<PriceCardProps> = ({ title, price, features, icon, isP
         </li>
       ))}
     </ul>
-    <button className={`w-full py-2 rounded-md font-bold transition-colors ${isPopular ? 'bg-[#E0FF00] text-black hover:bg-[#b3cc00]' : 'bg-gray-700 text-white hover:bg-gray-600'}`}>
+    <button className={`cursor-not-allowed w-full py-2 rounded-none font-bold transition-colors ${isPopular ? 'bg-[#E0FF00] text-black hover:bg-[#b3cc00]' : 'bg-gray-700 text-white hover:bg-gray-600'}`}>
       Choose Plan
     </button>
     {isPopular && (
-      <div className="absolute top-0 right-0 bg-[#E0FF00] text-black font-bold py-1 px-3 rounded-bl-xl rounded-tr-lg text-sm">
+      <div className="absolute top-0 right-0 bg-[#E0FF00] text-black font-bold py-1 px-3 rounded-bl-xl  text-sm">
         Most Popular
       </div>
     )}

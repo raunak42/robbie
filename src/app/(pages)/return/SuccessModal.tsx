@@ -2,8 +2,9 @@
 import { CircleCheckBig, TriangleAlert } from "lucide-react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 
-export const SuccessModal: React.FC = ({ }) => {
+const SuccessModalContent: React.FC = ({}) => {
   const searchParams = useSearchParams();
   const orderSuccess = searchParams.get("success");
 
@@ -44,5 +45,13 @@ export const SuccessModal: React.FC = ({ }) => {
         </Link>
       </div>
     </div>
+  );
+};
+
+export const SuccessModal: React.FC = () => {
+  return (
+    <Suspense>
+      <SuccessModalContent />
+    </Suspense>
   );
 };

@@ -1,5 +1,5 @@
 import { SuccessModal } from "./SuccessModal";
 
-export default async function Page() {
+export default function Page() {
   return <SuccessModal />;
 }

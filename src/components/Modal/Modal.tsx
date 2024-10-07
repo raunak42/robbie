@@ -4,8 +4,8 @@ interface KeyboardKeyProps {
   children: React.ReactNode;
 }
 
-const KeyboardKey: React.FC<KeyboardKeyProps> = ({ children }) => (
-  <div className="w-10 h-10 border border-[#E0FF00] flex items-center justify-center rrounded-md text-[#E0FF00] font-bold">
+export const KeyboardKey: React.FC<KeyboardKeyProps> = ({ children }) => (
+  <div className="w-10 h-10 border-2 border-[#ffffff] flex items-center justify-center rrounded-md text-[#ffffff] font-bold">
     {children}
   </div>
 );

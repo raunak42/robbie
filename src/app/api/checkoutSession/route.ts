@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
                         currency: "usd",
                         product_data: {
                             name: `Robbie: ${title} Subscription`,
-                            images: ["https://github-production-user-asset-6210df.s3.amazonaws.com/112076541/374121176-eda7364e-1f38-4f7b-8835-81de73f70679.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241007%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241007T095627Z&X-Amz-Expires=300&X-Amz-Signature=52aa47a7e26963d0f2c346a920e1ebd7d50d86aeb295f03000263688acc9dff2&X-Amz-SignedHeaders=host"],
+                            images:["https://private-user-images.githubusercontent.com/112076541/374492467-0452bb79-4c0c-4b4f-9fbf-9d8e3cc6c7b5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgzNzkzMDQsIm5iZiI6MTcyODM3OTAwNCwicGF0aCI6Ii8xMTIwNzY1NDEvMzc0NDkyNDY3LTA0NTJiYjc5LTRjMGMtNGI0Zi05ZmJmLTlkOGUzY2M2YzdiNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAwOFQwOTE2NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04ZjkxNTQ4ZWNmYjQxYzczOWU0NGYxNTljN2M3MDhkNmI5YjNjNDViZmFmN2M2ZDIzYTUzZjc2M2JmOWI3ZGE5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.XQS_4Iq3tBerpv9H5PnQ55KMUKcFaASonoI1Qd1Gm18"]
                         },
                     },
                     quantity: 1,
